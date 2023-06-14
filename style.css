@@ -1,0 +1,260 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.918);
+}
+
+/* Nav bar */
+.navigation{
+    position: sticky;
+    width: 100%;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.795);
+    display: flex;
+    flex-direction: row;
+    
+}
+  
+nav ul{
+    list-style: none;
+    display: flex;
+    /* margin: 0px; */
+}
+nav ul img{
+   width: 160px;
+   height: 30px;
+   padding: 10px;
+}
+
+nav ul li{
+    padding: 12px;
+    color: white;
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Baloo Bhai 2';
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
+nav ul li a:hover{
+    background-color: aliceblue;
+    color: black;
+    padding: 5px;
+    border-radius: 50px;
+    
+    
+}
+#menulines{
+    color: white;
+    font-size: 30px;
+    float: right;
+}
+.closebtn{
+    color: white;
+    font-size: 30px;
+    float: right;
+
+}
+
+
+
+
+/* Content */
+.container {
+    margin-left: 49px;
+    margin-top: 100px;
+    display: block;
+}
+
+#headingcontent {
+    color: white;
+    font-family: 'Croissant One';
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+#headingcontent2 {
+    color: blueviolet;
+    font-family: 'Croissant One';
+    font-size: 35px;
+    padding-left: 15px;
+    margin-bottom: 5px;
+    
+    
+}
+.typewrite{
+    font-family: 'Baloo Da 2', cursive;
+    font-size: 45px;
+    color: white;
+    text-decoration: none;
+}
+.description{
+    display: block;
+    margin-left: 49px;
+}
+.floating-image{
+    width: 300px;
+    height: 300px;
+    margin-top: -50px;
+    
+}
+.right{
+    float: right;
+    margin-right: 95px;
+}
+.para{
+    font-size: 18px;
+    margin-top: 35px;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    line-height: 30px;   
+    text-decoration: none;
+}
+
+
+/* Social Media Links */
+.social{
+    margin-top: 100px;
+    margin-left: 200px;
+    font-size: 30px;
+    
+
+}
+.fa {
+    padding: 12px;
+    border-radius: 25px;
+    font-size: 25px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .fa:hover {
+    opacity: 0.7;
+
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-instagram {
+    background: rgb(230, 9, 101);
+    color: white;
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+    
+/* Box */
+#services{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+
+.box{
+    border: 3px solid slategray;
+    border-radius: 25px;
+    background-color: white;
+    margin: 5px 20px;
+    height: 200px;
+    width: 300px;
+}
+
+.box:hover{
+    background-color: black;
+    border: 3px solid white;
+    color: white;
+
+}
+
+.box>button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+   
+}
+.box>p{
+    margin: 25px;
+    font-family: 'Ubuntu', sans-serif;
+
+
+}
+
+
+/* Buttons */
+#htm{
+    background-color: #4CAF50; /* Green */
+    margin-left: 95px;
+}
+#cs{
+    background-color: #f44336; /* Red */
+    margin-left: 105px;
+}
+#com{
+    background-color: #008CBA; /*Blue*/
+    margin-left: 77px;
+}
+
+#htm:hover{
+background-color: white;
+    color: #4CAF50; /* Green */
+    margin-left: 95px;
+    font-weight: bold;
+}
+#cs:hover{
+background-color: white;
+font-weight: bold;
+    color: #f44336; /* Red */
+    margin-left: 105px;
+}
+#com:hover{
+background-color: white;
+font-weight: bold;
+    color: #008CBA; /*Blue*/
+    margin-left: 77px;
+}
+    
+
+.footer-content{
+    color: black;
+    border: 2px solid white;
+    background-color: white;
+    padding: 5px;
+    margin-top: 10rem;
+    text-align: center;
+    /* display: flex; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
